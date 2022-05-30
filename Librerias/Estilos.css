@@ -1,0 +1,34 @@
+.logo {
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+    margin-right: 10px;
+}
+
+.titlecolor {
+    color: red;
+}
+
+@font-face {
+    font-family: Assasins;
+    src: url("../Fuentes/Assasins");
+}
+
+.fuentenav {
+    font-family: Assasins;
+}
+
+body {
+    background-image: url("../Imagenes/Fondo.jpg");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: fixed;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+}
+
+.center {
+    text-align: center;
+}
