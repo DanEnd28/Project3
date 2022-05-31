@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="Imagenes/Abstergo.png">
     <title>Assasin's Creed</title>
-    <link rel="stylesheet" href="Librerias/bootstrap.css">
+    <link rel="stylesheet" href="Librerias/Bootstrap/Css/bootstrap.css">
     <link rel="stylesheet" href="Librerias/Estilos.css">
 </head>
 
@@ -22,13 +22,13 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.html">Registro</a>
+                        <a class="nav-link active fuente" aria-current="page" href="index.html">Registro</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="Compra.html">Compra</a>
+                        <a class="nav-link fuente" href="Compra.html">Compra</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link disabled center">"Nada es verdad, Todo esta permitido"</a>
+                        <a class="nav-link disabled center fuente">"Nada es verdad, Todo esta permitido"</a>
                     </li>
                 </ul>
                 <form class="d-flex" role="search">
@@ -42,23 +42,23 @@
         <div class="row">
             <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
                 <div class="formulario">
-                    <h3 class="text-center subtitulo">Registro de la Hermandad</h3>
-                    <form class="row form-group">
+                    <h3 class="text-center subtitulo">Registro de la Hermandad ?</h3>
+                    <form class="row form-group" id="formulario_registro">
                         <div class=" form-group col-sm-12 col-md-6 col-lg-6 col-xl-6">
                             <label for="Nombre" class="form-label">Nombre</label>
-                            <input type="text" class="form-control" placeholder="Ingrese Nombre">
+                            <input type="text" class="form-control" placeholder="Ingrese Nombre" id="nombre">
                         </div>
                         <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
                             <label for="Apellido" class="form-label">Apellido</label>
-                            <input type="text" class="form-control" placeholder="Ingrese Apellido">
+                            <input type="text" class="form-control" placeholder="Ingrese Apellido" id="apellido">
                         </div>
                         <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
                             <label for="Nacimiento" class="form-label">Fecha de Nacimiento</label>
-                            <input type="date" class="form-control">
+                            <input type="date" class="form-control" id="nacimiento">
                         </div>
                         <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
                             <label for="Nombre" class="form-label">Genero</label>
-                            <select name="Genero" id="Genero" class="form-control">
+                            <select name="Genero" id="genero" class="form-control">
                                 <option selected>Seleccione</option>
                                 <option value="Mujer">Mujer</option>
                                 <option value="Hombre">Hombre</option>
@@ -68,22 +68,22 @@
                         </div>
                         <div class="col-sm-12 col-md-8 col-lg-8 col-xl-8">
                             <label for="Email" class="form-label">Email</label>
-                            <input type="email" name="Email" id="Email" class="form-control" placeholder="Ingrese Email">
+                            <input type="email" name="email" id="email" class="form-control" placeholder="Ingrese Email">
                         </div>
                         <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
                             <label for="Nickname" class="form-label">Nickname</label>
-                            <input type="text" class="form-control" placeholder="Nickname">
+                            <input type="text" class="form-control" placeholder="Nickname" id="nickname">
                         </div>
                         <div class="col-sm-12 col-md-8 col-lg-8 col-xl-8">
                             <label for="Contraseña" class="form-label">Contraseña</label>
-                            <input type="password" name="Contraseña" id="Contraseña" class="form-control" placeholder="Ingrese Contraseña">
+                            <input type="password" name="Contraseña" id="contrasena" class="form-control" placeholder="Ingrese Contraseña">
                         </div>
                         <div class="col-auto mostrarpass">
-                            <input type="checkbox" class="custom-control-input" id="customControlAutosizing">
-                            <label class="custom-control-label" for="customControlAutosizing">Mostrar</label>
+                            <input type="checkbox" id="mostrar_contrasena" title="Click para Mostrar Contraseña">
+                            <label class="custom-control-label" for="mostrar">Mostrar Contraseña</label>
                         </div>
                         <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center botonmargen">
-                            <button type="submit" class="btn btn-success" id="Registrar">Registrar</button>
+                            <button type="button" class="btn btn-success" id="Registrar">Registrar</button>
                         </div>
                     </form>
                 </div>
@@ -147,8 +147,8 @@
     </div>
     <script src="Librerias/jquery-3.6.0.min.js"></script>
     <script src="Librerias/jquery.validate.js"></script>
-    <script src="Librerias/bootstrap.js"></script>
-    <script src="Librerias/bootstrap.bundle.js"></script>
+    <script src="Librerias/Bootstrap/Js/bootstrap.js"></script>
+    <script src="Librerias/Bootstrap/Js/bootstrap.bundle.js"></script>
     <script src="Librerias/formulario_jquery.js"></script>
 </body>
 
