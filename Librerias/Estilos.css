@@ -11,19 +11,23 @@
 
 .title {
     color: red;
-    font-family: Assasins;
+    font-family: Assasins Creed;
     font-size: 25px;
     margin-top: 10px;
     margin-left: -5px;
 }
 
 @font-face {
-    font-family: Assasins;
+    font-family: Assasins Creed;
     src: url("../Fuentes/Assasins");
 }
 
 .fuentenav {
-    font-family: Assasins;
+    font-family: Assasins Creed;
+}
+
+.subtitulo {
+    font-family: Assasins Creed;
 }
 
 body {
@@ -67,10 +71,19 @@ body {
     padding: 30px;
     margin: 30px;
     border-radius: 50px;
+    margin-top: 15%;
 }
 
 .pie {
     font-family: Assasins;
     padding: -10px;
     line-height: 5px;
+}
+
+.mostrarpass {
+    margin-top: 40px;
+}
+
+.botonmargen {
+    margin-top: 20px;
 }
