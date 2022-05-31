@@ -1,3 +1,7 @@
+:root {
+    --fondo: rgba(240, 240, 240, 0.8)
+}
+
 .logo {
     height: 60px;
     width: 50px;
@@ -41,6 +45,7 @@ body {
     width: 100%;
     height: 100%;
     text-align: center;
+    margin: 30px;
 }
 
 .Asesino {
@@ -53,5 +58,19 @@ body {
 }
 
 .allado {
-    margin-left: 80px;
+    margin-left: 50px;
+    width: 400px;
+}
+
+.formulario {
+    background-color: var(--fondo);
+    padding: 30px;
+    margin: 30px;
+    border-radius: 50px;
+}
+
+.pie {
+    font-family: Assasins;
+    padding: -10px;
+    line-height: 5px;
 }
