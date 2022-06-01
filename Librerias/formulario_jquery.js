@@ -14,9 +14,10 @@ $("#formulario_registro").validate({
             required: true,
         }
     }
+
 })
 
-$("#Registrar").click(function() {
+$("#registrar").click(function() {
     if ($("#formulario_registro").valid() == false) {
         return;
     }

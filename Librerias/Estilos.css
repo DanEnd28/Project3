@@ -82,7 +82,7 @@ body {
     line-height: 5px;
 }
 
-.correo {
+.piee {
     font-size: 15px;
     padding: -10px;
     line-height: 5px;
@@ -106,4 +106,8 @@ body {
 
 .fuente {
     font-size: 20px;
+}
+
+.error {
+    color: red;
 }
