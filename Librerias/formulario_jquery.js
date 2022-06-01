@@ -18,10 +18,10 @@ $(document).ready(function() {
                 required: true,
                 minlength: 3,
                 maxlength: 30,
-                Number: false
             },
             nacimiento: {
-                required: true
+                required: true,
+                Date: true
             },
             genero: {
                 required: true
@@ -31,14 +31,41 @@ $(document).ready(function() {
                 email: true
             },
             nickname: {
-                required: true
+                required: true,
+                minlength: 3,
+                maxlength: 30,
             },
             contrasena: {
-                required: true
+                required: true,
+                minlength: 3,
+                maxlength: 30,
             }
         },
     });
 
-    $
+    $("#Compra").validate({
+        rules: {
+            Email: {
+                required: true,
+                email: true
+            },
+            Tlf: {
+                required: true,
+                minlength: 11,
+                maxlength: 15,
+            },
+            Juego: {
+                required: true
+            },
+            Plataforma: {
+                required: true
+            },
+            direccion: {
+                required: true,
+                minlength: 10,
+                maxlength: 150
+            }
+        }
+    });
 
 });
