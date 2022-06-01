@@ -72,7 +72,7 @@ body {
     padding: 30px;
     margin: 30px;
     border-radius: 50px;
-    margin-top: 15%;
+    margin-top: 5%;
 }
 
 .pie {
@@ -108,6 +108,11 @@ body {
     font-size: 20px;
 }
 
-.error {
+label.error {
     color: red;
+}
+
+input.error,
+select.error {
+    border: 1px solid red;
 }

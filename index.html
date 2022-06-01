@@ -43,23 +43,23 @@
             <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
                 <div class="formulario">
                     <h3 class="text-center subtitulo">Registro de la Hermandad ?</h3>
-                    <form class="row form-group" id="formulario_registro">
+                    <form class="row form-group" id="Registro">
                         <div class=" form-group col-sm-12 col-md-6 col-lg-6 col-xl-6">
-                            <label for="Nombre" class="form-label">Nombre</label>
-                            <input type="text" class="form-control" placeholder="Ingrese Nombre" id="nombre">
+                            <label for="nombre" class="form-label">Nombre</label>
+                            <input type="text" name="nombre" id="nombre" class="form-control" placeholder="Ingrese Nombre">
                         </div>
                         <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
                             <label for="Apellido" class="form-label">Apellido</label>
-                            <input type="text" class="form-control" placeholder="Ingrese Apellido" id="apellido">
+                            <input type="text" class="form-control" placeholder="Ingrese Apellido" id="apellido" name="apellido">
                         </div>
                         <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
                             <label for="Nacimiento" class="form-label">Fecha de Nacimiento</label>
-                            <input type="date" class="form-control" id="nacimiento">
+                            <input type="date" class="form-control" id="nacimiento" name="nacimiento">
                         </div>
                         <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
                             <label for="Nombre" class="form-label">Genero</label>
-                            <select name="Genero" id="genero" class="form-control">
-                                <option selected>Seleccione</option>
+                            <select name="genero" id="genero" class="form-control">
+                                <option value="">Seleccione</option>
                                 <option value="Mujer">Mujer</option>
                                 <option value="Hombre">Hombre</option>
                                 <option value="Otro">Otro</option>
@@ -72,18 +72,18 @@
                         </div>
                         <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
                             <label for="Nickname" class="form-label">Nickname</label>
-                            <input type="text" class="form-control" placeholder="Nickname" id="nickname">
+                            <input type="text" class="form-control" placeholder="Nickname" id="nickname" name="nickname">
                         </div>
                         <div class="col-sm-12 col-md-8 col-lg-8 col-xl-8">
                             <label for="Contraseña" class="form-label">Contraseña</label>
-                            <input type="password" name="Contraseña" id="contrasena" class="form-control" placeholder="Ingrese Contraseña">
+                            <input type="password" name="contrasena" id="contrasena" class="form-control" placeholder="Ingrese Contraseña">
                         </div>
                         <div class="col-auto mostrarpass">
                             <input type="checkbox" id="mostrar_contrasena" title="Click para Mostrar Contraseña">
                             <label class="custom-control-label" for="mostrar">Mostrar Contraseña</label>
                         </div>
                         <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center botonmargen">
-                            <button type="button" class="btn btn-success" id="registrar">Registrar</button>
+                            <button type="submit" class="btn btn-success" id="registrar">Registrar</button>
                         </div>
                     </form>
                 </div>
@@ -146,9 +146,10 @@
         <p class="pie">&copy; Abstergo Entertainment 2022</p>
     </div>
     <script src="Librerias/jquery-3.6.0.min.js"></script>
-    <script src="Librerias/jquery.validate.min.js"></script>
+    <script src="Librerias/JqueryV/additional-methods.min.js"></script>
     <script src="Librerias/Bootstrap/Js/bootstrap.js"></script>
     <script src="Librerias/Bootstrap/Js/bootstrap.bundle.js"></script>
+    <script src="Librerias/jquery.validate.min.js"></script>
     <script src="Librerias/formulario_jquery.js"></script>
     <script src="Librerias/Traducciones.js"></script>
 </body>
